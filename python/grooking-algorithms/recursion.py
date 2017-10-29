@@ -26,3 +26,13 @@ def countdown(i):
     countdown(i - 1)
 
 countdown(10)
+
+def fact(x):
+  print x
+
+  if x == 1:
+    return 1
+  else:
+    return x * fact(x - 1)
+
+fact(3)
