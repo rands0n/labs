@@ -16,3 +16,13 @@ def look_for_key(box):
       look_for_key(item) # recursion!
     elif item.is_a_key:
       print 'found the key!'
+
+def countdown(i):
+  print i
+
+  if i <= 0:
+    return
+  else:
+    countdown(i - 1)
+
+countdown(10)
